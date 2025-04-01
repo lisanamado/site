@@ -1,13 +1,13 @@
 # Site settings
-title: PHOTORAMA
-email: ""
+title: R. Lisandro Amado
+email: "lisandroamado@gmail.com"
 description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
-facebook_username: ""
+url: "https://lisanamado.github.io"
+baseurl: "/site"
+facebook_username: "lisnadro.amado"
 twitter_username: ""
-instagram_username: ""
-github_username:  ""
+instagram_username: "lisanamado"
+github_username:  "lisanamado"
 deviantart_username: ""
 flickr_username: ""
 discus_shortname: ""
@@ -15,10 +15,10 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
-  avatar: avatar.png
+  name: Lisandro Amado
+  avatar: avatar.jpg
   favicon: favicon.ico
-  info: photography website template
+  info: Photographer and digital creator from Argentina.
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -27,15 +27,14 @@ owner:
 # Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
 #
 comments :
-  provider : disqus
-  disqus :
-    short_name : ""
+  provider : false
+
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://lisanamado.github.io/gallery/"  
+  - JOURNAL: "https://lisanamado.github.io/journal/"
+  - ABOUT: "https://lisanamado.github.io/about/"
 
 # All translation keys
 translations:
