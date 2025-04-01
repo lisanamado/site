@@ -2,7 +2,7 @@
 layout: home
 main-title: "R. Lisandro Amado"
 subtitle: "Photographer and digital creator"
-description: "Based in Argentina, devoted to know the world and its people"
+description: "PAGE UNDER CONSTRUCTION"
 images:
   - image_path: /img/slider/1.jpg
     gallery-folder: /img/slider/
@@ -156,61 +156,35 @@ images:
 	</section>
 
 <div id="footer" role="contentinfo">
-		<ul class="soc-icons">
-      <li>
-        <a href="mailto:{{ site.email }}" style="
-    color:#dddddd; target="_blank" title="Email">
-                  <i class="fa fa-envelope-o"></i></span>
-              </a> </li>
-
-                 {% if site.facebook_username %}
-			<li>
-   <a href="https://facebook.com/{{ site.facebook_username }}" style="
-color:#dddddd; target="_blank" title="Facebook">
-                       <i class="fa fa-facebook"></i>
-                     </span>
-</a></li>
+  <ul class="soc-icons">
+    <li>
+      <a href="mailto:{{ site.email }}" style="color:#dddddd;" target="_blank" title="Email">
+        <i class="fa fa-envelope-o"></i>
+      </a>
+    </li>
+    {% if site.github_username %}
+    <li>
+      <a href="https://github.com/{{ site.github_username }}" style="color:#dddddd;" target="_blank" title="Github">
+        <i class="fa fa-github"></i>
+      </a>
+    </li>
     {% endif %}
- {% if site.twitter_username %}
-			<li>
-   <a href="https://twitter.com/{{ site.twitter_username }}" style="
-color:#dddddd; target="_blank" title="Twitter">
-                       <i class="fa fa-twitter"></i>
-                     </span>
-</a></li>
+    {% if site.facebook_username %}
+    <li>
+      <a href="https://facebook.com/{{ site.facebook_username }}" style="color:#dddddd;" target="_blank" title="Facebook">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
     {% endif %}
-                {% if site.instagram_username %}
-			<li>
-   <a href="https://instagram.com/{{ site.instagram_username }}" style="
-color:#dddddd; target="_blank" title="Instagram">
-                       <i class="fa fa-instagram"></i>
-                     </span>
-</a></li>
+    {% if site.instagram_username %}
+    <li>
+      <a href="https://instagram.com/{{ site.instagram_username }}" style="color:#dddddd;" target="_blank" title="Instagram">
+        <i class="fa fa-instagram"></i>
+      </a>
+    </li>
     {% endif %}
-                    {% if site.flickr_username %}
-						<li>
-   <a href="https://flickr.com/photos/{{ site.flickr_username }}" style="
-color:#dddddd; target="_blank" title="Flickr">
-              <i class="fa fa-flickr"></i>
-                     </span>
- </a></li>	
-     {% endif %}
-                    {% if site.deviantart_username %}
-			<li>
-   <a href="http://{{ site.deviantart_username }}.deviantart.com" style="
-color:#dddddd; target="_blank" title="DeviantArt">
-<i class="fa fa-deviantart"></i> </span>
-</a></li>	
-    {% endif %}
-                    {% if site.github_username %}
-                <li>
-   <a href="https://github.com/{{ site.github_username }}" style="
-color:#dddddd; target="_blank" title="Github">
-              <i class="fa fa-github"></i>
-                     </span>
-                   {% endif %}	
-					
-		</ul>	
+  </ul>
+</div>
 	</div>
 
   
