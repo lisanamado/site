@@ -4,7 +4,8 @@
   "description": "Theme by [Start Bootstrap](http://startbootstrap.com/).",
   "main": "Gruntfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"  
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,7 @@
   "homepage": "http://sunbliss.github.io",
   "dependencies": {
     "searchkit": "^0.7.0"
+    "express": "^4.17.1",
+    "accept-language": "^1.0.1",
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
 }
