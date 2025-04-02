@@ -18,5 +18,8 @@
   "homepage": "http://sunbliss.github.io",
   "dependencies": {
     "searchkit": "^0.7.0"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
 }
