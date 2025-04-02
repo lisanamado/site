@@ -239,20 +239,22 @@ images:
     <!-- JavaScript for Language Switching -->
     <script>
       function setLanguage(language) {
+          const contentEn = document.getElementById('content-en');
+          const contentEs = document.getElementById('content-es');
           if (contentEn && contentEs) {
-          if (language === 'en') {
-              contentEn.style.display = 'block';
-              contentEs.style.display = 'none';
-          } else if (language === 'es') {
-              contentEn.style.display = 'none';
-              contentEs.style.display = 'block';
+              if (language === 'en') {
+                  contentEn.style.display = 'block';
+                  contentEs.style.display = 'none';
+              } else if (language === 'es') {
+                  contentEn.style.display = 'none';
+                  contentEs.style.display = 'block';
+              }
           }
       }
-      }
-              // Ensure the initial language state is set correctly
-              document.addEventListener('DOMContentLoaded', function() {
-            setLanguage('en'); // Set the initial language to English
-        });
+      // Ensure the initial language state is set correctly
+      document.addEventListener('DOMContentLoaded', function() {
+          setLanguage('en'); // Set the initial language to English
+      });
   </script>
     </body>
     </html>
