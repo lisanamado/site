@@ -249,11 +249,15 @@ images:
                   contentEn.style.display = 'none';
                   contentEs.style.display = 'block';
               }
+              // Save the selected language to localStorage
+              localStorage.setItem('selectedLanguage', language);
           }
       }
+
       // Ensure the initial language state is set correctly
       document.addEventListener('DOMContentLoaded', function() {
-          setLanguage('en'); // Set the initial language to English
+          const savedLanguage = localStorage.getItem('selectedLanguage') || 'en'; // Default to English
+          setLanguage(savedLanguage);
       });
   </script>
     </body>
