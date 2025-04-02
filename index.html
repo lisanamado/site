@@ -153,7 +153,7 @@ images:
 				</div>
 
           <!--ESPAÑOL-->
-        <div class="position-absolute" id="content-es">
+        <div class="position-absolute" id="content-es" display = "none">
           <h2 class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
           <h2>{{ page.ESsubtitle }}</h2> 
                        <div class="entry-summary">
@@ -260,8 +260,8 @@ images:
         const contentEs = document.getElementById('content-es');
         if (contentEn && contentEs) {
             // Hide both sections initially
-            contentEn.style.display = 'none';
-            contentEs.style.display = 'none';
+            /*contentEn.style.display = 'none';
+            contentEs.style.display = 'none';*/
 
             // Get saved language or default to English
             const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
