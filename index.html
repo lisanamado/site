@@ -239,14 +239,20 @@ images:
     <!-- JavaScript for Language Switching -->
     <script>
       function setLanguage(language) {
+          if (contentEn && contentEs) {
           if (language === 'en') {
-              document.getElementById('content-en').style.display = 'block';
-              document.getElementById('content-es').style.display = 'none';
+              contentEn.style.display = 'block';
+              contentEs.style.display = 'none';
           } else if (language === 'es') {
-              document.getElementById('content-en').style.display = 'none';
-              document.getElementById('content-es').style.display = 'block';
+              contentEn.style.display = 'none';
+              contentEs.style.display = 'block';
           }
       }
+      }
+              // Ensure the initial language state is set correctly
+              document.addEventListener('DOMContentLoaded', function() {
+            setLanguage('en'); // Set the initial language to English
+        });
   </script>
     </body>
     </html>
