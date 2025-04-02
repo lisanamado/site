@@ -1,8 +1,10 @@
 ---
 layout: home
 main-title: "R. Lisandro Amado"
-subtitle: "Photographer and digital creator"
-description: "PAGE UNDER CONSTRUCTION"
+ENsubtitle: "Photographer and digital creator"
+ENdescription: "PAGE UNDER CONSTRUCTION"
+ESsubtitle: "Fotógrafo y creador digital"
+ESdescription: "PÁGINA EN CONSTRUCCIÓN"
 images:
   - image_path: /img/slider/1.jpg
     gallery-folder: /img/slider/
@@ -115,6 +117,11 @@ images:
 </head>
 
 <body class="fullscreen">
+<!--LANGUAGE SELECTOR-->
+  <div class="language-switcher">
+    <button onclick="setLanguage('en')">English</button>
+    <button onclick="setLanguage('es')">Español</button>
+  </div>
 
 <!-- MAIN CONTENT SECTION  _____________________________________________-->
 	<section id="content" role="main">
@@ -122,11 +129,12 @@ images:
 
 			<!-- WYSIWYG -->
 
-		<div class="position-absolute">
+        <!--ENGLISH-->
+		<div class="position-absolute" id="content-en">
 				<h2 class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
-				<h2>{{ page.subtitle }}</h2> 
+				<h2>{{ ENpage.subtitle }}</h2> 
                      <div class="entry-summary">
-							<p>{{ page.description }}</p>
+							<p>{{ ENpage.description }}</p>
 						</div><br />
 			</div>
 			
@@ -148,6 +156,34 @@ images:
 {% endfor %}
 
 				</div>
+
+          <!--ESPAÑOL-->
+        <div class="position-absolute" id="content-es">
+          <h2 class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
+          <h2>{{ ESpage.subtitle }}</h2> 
+                       <div class="entry-summary">
+                <p>{{ ESpage.description }}</p>
+              </div><br />
+        </div>
+        
+        <div class="gallery fullscreen-gallery kenburns-gallery">
+  
+          <canvas id="kenburns"></canvas>
+          
+  {% for image in page.images %}  	
+  
+          <figure class="gallery-item">
+            <header class='gallery-icon'>
+  
+  <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
+  <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+    
+          </header>	
+          </figure>
+  
+  {% endfor %}
+  
+          </div>
 			<!-- END WYSIWYG -->
 			
 	
@@ -205,7 +241,18 @@ images:
 <!-- include custom script -->
 <script src="{{ site.baseurl }}/js/scripts.js"></script>
 
-
-       </body>
+    <!-- JavaScript for Language Switching -->
+    <script>
+      function setLanguage(language) {
+          if (language === 'en') {
+              document.getElementById('content-en').style.display = 'block';
+              document.getElementById('content-es').style.display = 'none';
+          } else if (language === 'es') {
+              document.getElementById('content-en').style.display = 'none';
+              document.getElementById('content-es').style.display = 'block';
+          }
+      }
+  </script>
+    </body>
     </html>
 
