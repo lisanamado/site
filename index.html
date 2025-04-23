@@ -112,22 +112,19 @@ images:
 </head>
 
 <body class="fullscreen">
-<!--
-	LANGUAGE SELECTOR-->
-<!--  <div class="language-switcher">
+<!--	LANGUAGE SELECTOR-->
+  <div class="language-switcher">
     <button onclick="setLanguage('en')">English</button>
     <button onclick="setLanguage('es')">Español</button>
   </div> 
 -->
 <!-- MAIN CONTENT SECTION  _____________________________________________-->
-<!--	
 	<section id="content" role="main">
 		<div class="wrapper">
--->
 			<!-- WYSIWYG -->
 
         <!--ENGLISH-->
-<!--		<div class="position-absolute" id="content-en">
+		<div class="position-absolute" id="content-en">
 				<h2 class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
 				<h2>{{ page.ENsubtitle }}</h2> 
                      <div class="entry-summary">
@@ -153,7 +150,7 @@ images:
 {% endfor %}
 
 				</div>
--->
+
           <!--ESPAÑOL-->
        <div class="position-absolute" id="content-es" display = "none">
           <h2 class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
@@ -210,7 +207,7 @@ images:
   
           </div>
 	
-<!--		</div><!-- END .wrapper -->
+		</div><!-- END .wrapper -->
 		
 	</section>
 
@@ -265,7 +262,7 @@ images:
 <script src="{{ site.baseurl }}/js/scripts.js"></script>
 
     <!-- JavaScript for Language Switching -->
- <!--   <script>
+    <script>
       function setLanguage(language) {
           const contentEn = document.getElementById('content-en');
           const contentEs = document.getElementById('content-es');
@@ -296,7 +293,7 @@ images:
             setLanguage(savedLanguage);
         }
     });
-	-->
+	
   </script>
     </body>
     </html>
