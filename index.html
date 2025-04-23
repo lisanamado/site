@@ -112,20 +112,22 @@ images:
 </head>
 
 <body class="fullscreen">
-<!--LANGUAGE SELECTOR-->
-  <div class="language-switcher">
+<!--
+	LANGUAGE SELECTOR-->
+<!--  <div class="language-switcher">
     <button onclick="setLanguage('en')">English</button>
     <button onclick="setLanguage('es')">Español</button>
-  </div>
-
+  </div> 
+-->
 <!-- MAIN CONTENT SECTION  _____________________________________________-->
+<!--	
 	<section id="content" role="main">
 		<div class="wrapper">
-
+-->
 			<!-- WYSIWYG -->
 
         <!--ENGLISH-->
-		<div class="position-absolute" id="content-en">
+<!--		<div class="position-absolute" id="content-en">
 				<h2 class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
 				<h2>{{ page.ENsubtitle }}</h2> 
                      <div class="entry-summary">
@@ -151,9 +153,9 @@ images:
 {% endfor %}
 
 				</div>
-
+-->
           <!--ESPAÑOL-->
-        <div class="position-absolute" id="content-es" display = "none">
+<!--        <div class="position-absolute" id="content-es" display = "none">
           <h2 class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
           <h2>{{ page.ESsubtitle }}</h2> 
                        <div class="entry-summary">
@@ -180,7 +182,33 @@ images:
   
           </div>
 			<!-- END WYSIWYG -->
-			
+
+        <div class="position-absolute" id="content-es" display = "none">
+          <h2 class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
+          <h2>{{ page.ESsubtitle }}</h2> 
+                       <div class="entry-summary">
+                <p>{{ page.ESdescription }}</p>
+              </div><br />
+        </div>
+        
+        <div class="gallery fullscreen-gallery kenburns-gallery">
+  
+          <canvas id="kenburns"></canvas>
+          
+  {% for image in page.images %}  	
+  
+          <figure class="gallery-item">
+            <header class='gallery-icon'>
+  
+  <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
+  <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+    
+          </header>	
+          </figure>
+  
+  {% endfor %}
+  
+          </div>
 	
 		</div><!-- END .wrapper -->
 		
@@ -237,7 +265,7 @@ images:
 <script src="{{ site.baseurl }}/js/scripts.js"></script>
 
     <!-- JavaScript for Language Switching -->
-    <script>
+ <!--   <script>
       function setLanguage(language) {
           const contentEn = document.getElementById('content-en');
           const contentEs = document.getElementById('content-es');
@@ -268,6 +296,7 @@ images:
             setLanguage(savedLanguage);
         }
     });
+	-->
   </script>
     </body>
     </html>
