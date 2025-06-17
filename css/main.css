@@ -157,6 +157,13 @@ hr.small {
   -o-background-size: cover;
   margin-bottom: 50px;
 }
+.main-header-text {
+  position: absolute;
+  top: 2em;      /* adjust as needed */
+  left: 2em;     /* adjust as needed */
+  text-align: left;
+  z-index: 10;
+}
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
