@@ -65,6 +65,22 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
+/*CUSTOM navbar in column*/
+.navbar-nav.navbar-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* or flex-start or center as you prefer */
+}
+
+.navbar-nav.navbar-right > li {
+  width: 100%;
+}
+
+.navbar-nav.navbar-right > li > a {
+  width: 100%;
+  text-align: right; /* or left/center as you prefer */
+}
+
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
