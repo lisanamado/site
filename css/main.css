@@ -21,12 +21,13 @@ h6 {
   font-weight: 800;
 }
 a {
+  font-size: 300px;
   color: #760824;
   transition: color .4s;
   text-decorarion: none;
 }
 a:hover,
-a:focus {
+a:focus { 
   color: #fff;
      transition: color .3s;
     outline: none;
@@ -161,7 +162,7 @@ hr.small {
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 200px;
+  font-size: 50px;
   text-shadow: 1px 1px 4px #000;
 }
 .intro-header .site-heading .subheading,
