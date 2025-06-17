@@ -32,9 +32,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://lisanamado.github.io/gallery/"  
-  - JOURNAL: "https://lisanamado.github.io/journal/"
-  - ABOUT: "https://lisanamado.github.io/about/"
+  - GALERÍA: "https://lisanamado.github.io/gallery/"  
+  - BLOG: "https://lisanamado.github.io/journal/"
+  - ACERCA DE MÍ: "https://lisanamado.github.io/about/"
 
 # All translation keys
 translations:
