@@ -21,7 +21,6 @@ h6 {
   font-weight: 800;
 }
 a {
-  font-size: 300px;
   color: #760824;
   transition: color .4s;
   text-decorarion: none;
@@ -29,7 +28,7 @@ a {
 a:hover,
 a:focus { 
   color: #fff;
-     transition: color .3s;
+    transition: color .3s;
     outline: none;
     text-shadow:none;
 }
