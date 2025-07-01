@@ -34,7 +34,7 @@ comments :
 nav:
   - GALERÍA: "https://lisanamado.github.io/gallery/"  
 #  - BLOG: "https://lisanamado.github.io/journal/"
-  - ACERCA DE MÍ: "https://lisanamado.github.io/about/"
+  - SOBRE MI: "https://lisanamado.github.io/about/"
 
 # All translation keys
 translations:
