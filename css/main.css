@@ -19,6 +19,7 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
+  text-shadow: 0.1em 0.1em 0.2em #000;
 }
 a {
   color: #760824;
