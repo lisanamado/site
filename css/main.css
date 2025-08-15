@@ -426,3 +426,24 @@ body {
  color: black;
 }
 
+/* Tabla para los contenidos */
+.bottom-grid {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas por defecto */
+  gap: 10px 20px;
+  justify-items: start;
+  align-content: end;
+  padding: 20px;
+}
+
+/* Responsive: en pantallas chicas, una columna */
+@media (max-width: 600px) {
+  .bottom-grid {
+    grid-template-columns: 1fr; /* una sola columna */
+    gap: 10px 0;               /* ajusta el espacio entre filas */
+  }
+}
