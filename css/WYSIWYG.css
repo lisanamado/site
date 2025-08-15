@@ -30,7 +30,7 @@ body.fullscreen .position-absolute { color: #dddddd;  bottom: 0; left: 0; width:
 	.vertical-gallery .gallery-caption h3 { font-size: 1.4em; }
 
 
-h1 { font-weight: normal; font-size: 3.7em; margin: 0 0 .5em 0; line-height: 1.4; }
+h1 { font-weight: bold; font-size: 5em; margin: 0 0 .5em 0; line-height: 2; text-shadow: 1px 1px 2px #000; } 
 h2 { font-weight: normal; font-size: 1.5em; margin: 0 0 .7em 0; line-height: 1.2; letter-spacing: .01em;  }
 h3 { font-weight: normal; font-size: 1.25em; margin: 0 0 .5em 0; line-height: 1.4; }
 h4 { font-weight: normal; font-size: 1.15em; margin: 0 0 .5em 0; line-height: 1.4; }
@@ -42,7 +42,7 @@ ol { list-style: decimal; }
 strong, input, button, .button { font-weight: bold; }
 nav ul { list-style: none; }
 em { font-style: italic; } 
-a { color: #EA8E00; text-decoration: none; 
+a { color: #ffffff; text-decoration: none; 
 -webkit-transition: all .2s ease; -moz-transition: all .2s ease; -ms-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { text-decoration: none; }
 a:hover { text-decoration: none; color: #222;  } 
