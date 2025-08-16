@@ -434,7 +434,7 @@ body {
   right: 15px;
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columnas por defecto */
-  gap: 7px 10px;
+  gap: 5px 10px;
   justify-items: start;
   align-content: end;
   padding: 20px;
