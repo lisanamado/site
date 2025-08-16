@@ -24,18 +24,6 @@ h6 {
   font-weight: 800;
   text-shadow: 0.1em 0.1em 0.1em #000;
 }
-@media only screen and
-(min-width: 768px) {
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: 50%; 
-  }
-}
-/* Chequear si achica*/
 a {
   color: #760824;
   transition: color .4s;
