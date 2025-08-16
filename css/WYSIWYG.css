@@ -37,7 +37,15 @@ h4 { font-weight: normal; font-size: 1.15em; margin: 0 0 .5em 0; line-height: 1.
 h5 { font-weight: bold; font-size: 1em; margin: 0 0 .5em 0; line-height: 1.4; }
 h6 { font-weight: bold; font-size: .8em; margin: 0 0 .5em 0; line-height: 1.4; }
 p { padding: 0 0 1.5em 0; line-height: 1.6; }
-@media que
+/* Ver si funciona para pantallas pequeñas */
+@media (max-width: 600px) {
+  h1 { font-size: 0.75em; }
+  h2 { font-size: 0.5em; }
+  h3 { font-size: 0.4em; }
+  h4 { font-size: 0.3em; }
+  h5 { font-size: 0.2em; }
+  h6 { font-size: 0.1em; }
+}
 
 ul, ol { padding: 0; line-height: 1.6; list-style: disc; }
 ol { list-style: decimal; }
