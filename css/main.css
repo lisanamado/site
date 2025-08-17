@@ -445,6 +445,6 @@ body {
   .bottom-grid {
     grid-template-columns: 1fr; /* una sola columna */
     gap: 1px;               /* ajusta el espacio entre filas */
-    bottom: 25vw; /* intento subir la tabla para que no se superponga con el footer */
+    bottom: 35vw; /* intento subir la tabla para que no se superponga con el footer */
   }
 }
