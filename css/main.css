@@ -434,7 +434,7 @@ body {
   right: 15px;
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columnas por defecto */
-  gap: 5px 10px;
+  gap: 5px 2px;
   justify-items: start;
   align-content: end;
   padding: 20px;
@@ -444,7 +444,7 @@ body {
 @media (max-width: 600px) {
   .bottom-grid {
     grid-template-columns: 1fr; /* una sola columna */
-    gap: 2px 0;               /* ajusta el espacio entre filas */
+    gap: 1px;               /* ajusta el espacio entre filas */
     bottom: 60px; /* intento subir la tabla para que no se superponga con el footer */
   }
 }
