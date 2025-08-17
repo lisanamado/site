@@ -441,7 +441,7 @@ body {
 }
 
 /* Responsive: en pantallas chicas, una columna */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .bottom-grid {
     grid-template-columns: 1fr; /* una sola columna */
     gap: 10px 0;               /* ajusta el espacio entre filas */
