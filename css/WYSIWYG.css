@@ -37,7 +37,7 @@ h4 { font-weight: normal; font-size: 1.15em; margin: 0 0 .5em 0; line-height: 1.
 h5 { font-weight: bold; font-size: 1em; margin: 0 0 .5em 0; line-height: 1.4; }
 h6 { font-weight: bold; font-size: .8em; margin: 0 0 .5em 0; line-height: 1.4; }
 p { padding: 0 0 1.5em 0; line-height: 1.6; }
-/* Ver si funciona para pantallas pequeñas */
+/* Adaptabilidad para pantallas chicas */
 @media (max-width: 600px) {
   h1 { font-size: 0.75em; }
   h2 { font-size: 0.5em; }
@@ -55,7 +55,7 @@ em { font-style: italic; }
 a { color: #ffffff; text-decoration: none; 
 -webkit-transition: all .2s ease; -moz-transition: all .2s ease; -ms-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { text-decoration: none; }
-a:hover { text-decoration: none; color: #222;  } 
+a:hover { text-decoration: none; color: #999999;  } 
 img { border: 0; margin-top: 5px; margin-bottom: 2em; max-width: 100%; height: auto; }
 p img, h2 img { vertical-align: middle; }
 ul ul, ol ol { padding-bottom: 0; }
@@ -160,7 +160,7 @@ ul.soc-icons { list-style: none; display: inline-block; vertical-align: top; pad
 ul.soc-icons::after { content: ""; display: block; clear: both; }
 ul.soc-icons li { display: inline-block; padding: 0 0 0 1em; font-size: 1.5em; }
 ul.soc-icons li a { text-decoration: none !important;}
-ul.soc-icons li a:hover i { color: #000;
+ul.soc-icons li a:hover i { color: #999999;
 	-moz-animation: spinHorizontal .5s linear;
     -o-animation: spinHorizontal .5s linear;    
     -webkit-animation: spinHorizontal .5s linear;
