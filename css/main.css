@@ -447,3 +447,9 @@ body {
     bottom: 30vw; /* subo la tabla para que no se superponga con el footer */
   }
 }
+/*ver si esto anda*/
+.bottom-grid > a,
+.bottom-grid > h3 {
+  width: auto !important;   /* anula el width:100% heredado */
+  display: inline-block;    /* opcional: asegura que se ajuste al contenido */
+}
