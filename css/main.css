@@ -433,8 +433,7 @@ body {
   left: 15px;
   right: 15px;
   display: grid;
-  grid-template-columns: 3fr; /* tres columnas, probar si funciona*/
-/*  grid-template-columns: repeat(2, 1fr); /* 2 columnas por defecto */
+  grid-template-columns: repeat(3, 1fr); /* 2 columnas por defecto */
   gap: 5px 2px;
   justify-items: start;
   align-content: end;
@@ -445,6 +444,6 @@ body {
 @media (max-width: 600px) {
   .bottom-grid {
     gap: 1px;               /* ajusta el espacio entre filas */
-    bottom: 30vw; /* intento subir la tabla para que no se superponga con el footer */
+    bottom: 30vw; /* subo la tabla para que no se superponga con el footer */
   }
 }
