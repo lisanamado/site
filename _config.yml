@@ -5,12 +5,12 @@ description: "Página en construcción."
 url: "https://lisanamado.github.io"
 baseurl: "/site"
 facebook_username: "lisandro.amado"
-twitter_username: ""
+twitter_username: 
 instagram_username: "lisanamado"
 github_username:  "lisanamado"
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+deviantart_username: 
+flickr_username: 
+discus_shortname: 
 share: true
 
 # Owner/author information
