@@ -162,7 +162,7 @@ ul.soc-icons li { display: inline-block; padding: 0 0 0 1em; font-size: 1.5em; }
 ul.soc-icons li a { text-decoration: none !important;}
 ul.soc-icons li a:hover i { color: #999999;
 	-moz-animation: spinHorizontal .5s linear;
-    -o-animation: spinHorizontal .5s linear;    
+    -o-animation: spinHorizontal .5s linear;
     -webkit-animation: spinHorizontal .5s linear;
     animation: spinHorizontal .5s linear; }
 @-webkit-keyframes spinHorizontal { 0% { transform: rotateY(0deg); } 100% { transform: rotateY(-360deg); } }
