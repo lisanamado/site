@@ -438,18 +438,29 @@ body {
   justify-items: start;
   align-content: end;
   padding: 20px;
+  margin-left: 20px;
+  max-width: 1000px;
+}
+
+/*permite que los textos se ajusten a la tabla*/
+.bottom-grid > a,
+.bottom-grid > h3 {
+  width: auto !important;   /* anula el width:100% heredado */
+  display: inline-block;    /* opcional: asegura que se ajuste al contenido */
 }
 
 /* Responsive: en pantallas chicas, una columna */
 @media (max-width: 600px) {
   .bottom-grid {
+    grid-template-columns: repeat(2, 1fr);
     gap: 1px;               /* ajusta el espacio entre filas */
     bottom: 30vw; /* subo la tabla para que no se superponga con el footer */
   }
 }
-/*ver si esto anda*/
-.bottom-grid > a,
-.bottom-grid > h3 {
-  width: auto !important;   /* anula el width:100% heredado */
-  display: inline-block;    /* opcional: asegura que se ajuste al contenido */
+
+/* Tablet: 2 columnas */
+@media (max-width: 900px) {
+  .bottom-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
