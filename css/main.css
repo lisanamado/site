@@ -433,7 +433,7 @@ body {
   left: 15px;
   right: 15px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 2 columnas por defecto */
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas por defecto */
   gap: 5px 2px;
   justify-items: start;
   align-content: end;
@@ -441,7 +441,6 @@ body {
   margin-left: 20px;
   max-width: 1000px;
 }
-
 /*permite que los textos se ajusten a la tabla*/
 .bottom-grid > a,
 .bottom-grid > h3 {
@@ -452,9 +451,9 @@ body {
 /* Responsive: en pantallas chicas, una columna */
 @media (max-width: 600px) {
   .bottom-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 1px;               /* ajusta el espacio entre filas */
-    bottom: 30vw; /* subo la tabla para que no se superponga con el footer */
+    bottom: 10%; /* subo la tabla para que no se superponga con el footer */
   }
 }
 
