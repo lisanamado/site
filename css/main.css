@@ -25,9 +25,9 @@ h6 {
   text-shadow: 0.1em 0.1em 0.1em #000;
 }
 a {
-  color: #760824;
+  color: #ffc799;
   transition: color .4s;
-  text-decorarion: none;
+  text-decoration: none;
 }
 a:hover,
 a:focus { 
