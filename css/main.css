@@ -433,7 +433,7 @@ body {
   left: 15px;
   right: 15px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas por defecto */
+  grid-template-columns: repeat(2, 1fr); /* 3 columnas por defecto */
   gap: 5px 2px;
   justify-items: start;
   align-content: end;
@@ -457,9 +457,9 @@ body {
   }
 }
 
-/* Tablet: 2 columnas */
+/* Tablet: 2 columnas 
 @media (max-width: 900px) {
   .bottom-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+}*/
