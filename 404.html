@@ -1,11 +1,14 @@
 ---
 layout: page
 header-img: "img/404.jpg"
-permalink: "/404.html"
-redirect_to: "baseurl/site/"
+permalink: "/site/404.html"
 ---
 
-<p><h1>Esta página está en construcción, ¡pronto habrá novedades!.</p>
-<p>Serás redirigido <a href="{{ site.baseurl }}/site/">Página principal</a>en unos segundos.</p></h1>
+<p>Serás redirigido a la <a href="{{ site.baseurl }}/">Página principal</a> en unos segundos.</p>
 
-</div>
+<script>
+  // Redirect to site root after 3 seconds
+  setTimeout(function(){
+    window.location.href = "{{ site.baseurl }}/";
+  }, 3000);
+</script>
