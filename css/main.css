@@ -498,9 +498,10 @@ body {
     clear: both !important;
     width: auto !important;
     max-width: none !important;
-    margin: 1rem 0 0 -2rem !important;
+    margin: 1rem 0 0 -1.75rem !important;
     padding: 0 0 0 0px !important;
     text-align: left !important;
+    gap: 0.5rem;
   }
   .navbar-custom .navbar-extra-title {
     font-size: 2rem !important;
