@@ -467,6 +467,9 @@ body {
 }*/
 
 /* Navbar extra text for desktop and mobile */
+.navbar-custom .navbar-header {
+  position: relative;
+}
 .navbar-custom .navbar-extra {
   position: absolute;
   right: 20px;
@@ -474,18 +477,23 @@ body {
   transform: translateY(-50%);
   text-align: right;
   max-width: 35%;
+  z-index: 5;
 }
 .navbar-custom .navbar-extra-title {
-  font-size: 3rem;
-  font-weight: 600;
-  color: #ffffff;
+  display: block;
+  font-size: 3rem !important;
+  font-weight: 800;
+  color: #ffffff !important;
   line-height: 1.1;
+  white-space: normal;
 }
 .navbar-custom .navbar-extra-desc {
-  font-size: 2.5rem;
-  color: #dcdcdc;
+  display: block;
+  font-size: 2.5rem !important;
+  color: #dcdcdc !important;
   margin-top: 0.2rem;
   line-height: 1.1;
+  white-space: normal;
 }
 
 @media (max-width: 767px) {
@@ -498,9 +506,9 @@ body {
     padding-right: 0;
   }
   .navbar-custom .navbar-extra-title {
-    font-size: 3rem;
+    font-size: 3rem !important;
   }
   .navbar-custom .navbar-extra-desc {
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
   }
 }
