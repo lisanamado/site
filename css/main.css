@@ -476,16 +476,16 @@ body {
   max-width: 35%;
 }
 .navbar-custom .navbar-extra-title {
-  font-size: 1rem;
+  font-size: 3rem;
   font-weight: 600;
   color: #ffffff;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 .navbar-custom .navbar-extra-desc {
-  font-size: 0.85rem;
+  font-size: 2.5rem;
   color: #dcdcdc;
   margin-top: 0.2rem;
-  line-height: 1.3;
+  line-height: 1.1;
 }
 
 @media (max-width: 767px) {
@@ -498,9 +498,9 @@ body {
     padding-right: 0;
   }
   .navbar-custom .navbar-extra-title {
-    font-size: 0.9rem;
+    font-size: 3rem;
   }
   .navbar-custom .navbar-extra-desc {
-    font-size: 0.8rem;
+    font-size: 2.5rem;
   }
 }
