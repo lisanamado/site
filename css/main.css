@@ -436,12 +436,15 @@ body {
   right: 15px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columnas por defecto */
-  gap: 5px 2px;
+  gap: 2.5px 2px;
   justify-items: start;
   align-content: end;
   padding: 20px;
   margin-left: 20px;
   max-width: 1000px;
+}
+.bottom-grid h2 {
+  font-size: 0.85em !important;
 }
 /*permite que los textos se ajusten a la tabla*/
 .bottom-grid > a,
@@ -456,6 +459,7 @@ body {
     grid-template-columns: 1fr;
     gap: 1px;               /* ajusta el espacio entre filas */
     bottom: 10%; /* subo la tabla para que no se superponga con el footer */
+    left: 20px;
   }
 }
 
@@ -481,7 +485,7 @@ body {
 }
 .navbar-custom .navbar-extra-title {
   display: block;
-  font-size: 3rem !important;
+  font-size: 2.55rem !important;
   font-weight: 800;
   color: #ffffff !important;
   line-height: 1.1;
@@ -489,7 +493,7 @@ body {
 }
 .navbar-custom .navbar-extra-desc {
   display: block;
-  font-size: 2.5rem !important;
+  font-size: 1.75rem !important;
   color: #dcdcdc !important;
   margin-top: 0.2rem;
   line-height: 1.1;
@@ -504,11 +508,12 @@ body {
     text-align: left;
     max-width: 100%;
     padding-right: 0;
+    padding-left: 20px;
   }
   .navbar-custom .navbar-extra-title {
-    font-size: 2.25rem !important;
+    font-size: 1.8rem !important;
   }
   .navbar-custom .navbar-extra-desc {
-    font-size: 1.875rem !important;
+    font-size: 1.125rem !important;
   }
 }
