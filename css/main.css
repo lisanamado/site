@@ -465,8 +465,10 @@ body {
     margin: 0.25rem 0;
   }
   .navbar-custom .navbar-extra {
-    position: static;
-    transform: none;
+    position: static !important;
+    top: auto !important;
+    right: auto !important;
+    transform: none !important;
     margin-top: 0.5rem;
     text-align: left;
     max-width: calc(100% - 40px);
