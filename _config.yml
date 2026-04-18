@@ -1,7 +1,7 @@
 # Site settings
 title: R. Lisandro Amado
 email: "lisandroamado@gmail.com"
-description: "Lisandro Amado - Fotógrafo argentino"
+description: "Lisandro Amado - Fotógrafo y creador audiovisual argentino"
 url: "https://lisanamado.github.io"
 baseurl: "/site"
 facebook_username: "lisandro.amado"
@@ -18,7 +18,7 @@ owner:
   name: Lisandro Amado
   avatar: avatar.jpg
   favicon: favicon.ico
-  info: Photographer and digital creator from Argentina.
+  info: Photographer and visual creator from Argentina.
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
