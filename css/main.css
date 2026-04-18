@@ -469,6 +469,9 @@ body {
     top: auto !important;
     right: auto !important;
     transform: none !important;
+    clear: both !important;
+    display: block !important;
+    width: 100% !important;
     margin-top: 0.5rem;
     text-align: left;
     max-width: calc(100% - 40px);
