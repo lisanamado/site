@@ -7,17 +7,19 @@
                 <i class="fa fa-bars fa-lg"></i>
             </button>
             <a href="{{ site.baseurl }}/" title="HOME"> <h2 class="big"><strong>R. Lisandro Amado</strong></h2></a>
-            {% if page.subtitle or page.description %}
-            <div class="navbar-extra">
-                {% if page.subtitle %}
-                <div class="navbar-extra-title">{{ page.subtitle }}</div>
-                {% endif %}
-                {% if page.description %}
-                <div class="navbar-extra-desc">{{ page.description }}</div>
-                {% endif %}
-            </div>
+        </div>
+
+        <!-- Subtitle and Description -->
+        {% if page.subtitle or page.description %}
+        <div class="navbar-extra">
+            {% if page.subtitle %}
+            <div class="navbar-extra-title">{{ page.subtitle }}</div>
+            {% endif %}
+            {% if page.description %}
+            <div class="navbar-extra-desc">{{ page.description }}</div>
             {% endif %}
         </div>
+        {% endif %}
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
