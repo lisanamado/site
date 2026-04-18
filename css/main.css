@@ -469,15 +469,15 @@ body {
     clear: both !important;
     width: auto !important;
     max-width: none !important;
-    margin: 1.5rem 0 0 0 !important;
-    padding: 0 0 0 20px !important;
+    margin: 2rem 0 0 0 !important;
+    padding: 0 0 0 0px !important;
     text-align: left !important;
   }
   .navbar-custom .navbar-extra-title {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
   }
   .navbar-custom .navbar-extra-desc {
-    font-size: 1.125rem !important;
+    font-size: 0.5rem !important;
   }
 }
 
