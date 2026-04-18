@@ -451,20 +451,19 @@ body {
 }
 
 /* Responsive: en pantallas chicas, una columna */
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .bottom-grid {
     grid-template-columns: 1fr;
     gap: 1px;               /* ajusta el espacio entre filas */
     bottom: 120px; /* subo la tabla para que no se superponga con el footer */
     left: 20px;
     right: 20px;
+    margin-left: 0;
   }
   .bottom-grid h2 {
     font-size: 1.25em !important;
+    margin: 0.25rem 0;
   }
-}
-
-@media (max-width: 767px) {
   .navbar-custom .navbar-extra {
     position: static;
     transform: none;
