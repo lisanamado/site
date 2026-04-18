@@ -466,18 +466,12 @@ body {
   }
   .navbar-custom .navbar-extra {
     position: static !important;
-    top: auto !important;
-    right: auto !important;
-    transform: none !important;
     clear: both !important;
-    display: block !important;
-    width: 100% !important;
-    margin-top: 0.5rem;
-    text-align: left;
-    max-width: calc(100% - 40px);
-    padding-right: 0;
-    padding-left: 20px;
-    margin-left: 0;
+    width: auto !important;
+    max-width: none !important;
+    margin: 0.5rem 20px 0 20px !important;
+    padding: 0 !important;
+    text-align: left !important;
   }
   .navbar-custom .navbar-extra-title {
     font-size: 1.8rem !important;
