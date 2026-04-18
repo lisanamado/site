@@ -450,6 +450,35 @@ body {
   display: inline-block;    /* opcional: asegura que se ajuste al contenido */
 }
 
+.navbar-custom .navbar-header {
+  position: relative;
+}
+.navbar-custom .navbar-extra {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: right;
+  max-width: 35%;
+  z-index: 5;
+}
+.navbar-custom .navbar-extra-title {
+  display: block;
+  font-size: 2.55rem !important;
+  font-weight: 500;
+  color: #ffffff !important;
+  line-height: 2;
+  white-space: normal;
+}
+.navbar-custom .navbar-extra-desc {
+  display: block;
+  font-size: 1.75rem !important;
+  color: #dcdcdc !important;
+  margin-top: 0.4rem;
+  line-height: 1.1;
+  white-space: normal;
+}
+
 /* Responsive: en pantallas chicas, una columna */
 @media (max-width: 767px) {
   .bottom-grid {
@@ -487,35 +516,4 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }*/
-
-/* Navbar extra text for desktop and mobile */
-.navbar-custom .navbar-header {
-  position: relative;
-}
-.navbar-custom .navbar-extra {
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: right;
-  max-width: 35%;
-  z-index: 5;
-}
-.navbar-custom .navbar-extra-title {
-  display: block;
-  font-size: 2.55rem !important;
-  font-weight: 800;
-  color: #ffffff !important;
-  line-height: 1.1;
-  white-space: normal;
-}
-.navbar-custom .navbar-extra-desc {
-  display: block;
-  font-size: 1.75rem !important;
-  color: #dcdcdc !important;
-  margin-top: 0.4rem;
-  line-height: 1.1;
-  white-space: normal;
-}
-
 
