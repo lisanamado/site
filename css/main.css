@@ -479,7 +479,7 @@ body {
   white-space: normal;
 }
 
-/* Responsive: en pantallas chicas, una columna */
+/* Responsive*/
 @media (max-width: 767px) {
   .bottom-grid {
     grid-template-columns: 1fr;
@@ -498,22 +498,16 @@ body {
     clear: both !important;
     width: auto !important;
     max-width: none !important;
-    margin: 2rem 0 0 0 !important;
+    margin: 1rem 0 0 -2rem !important;
     padding: 0 0 0 0px !important;
     text-align: left !important;
   }
   .navbar-custom .navbar-extra-title {
-    font-size: 1rem !important;
+    font-size: 2rem !important;
   }
   .navbar-custom .navbar-extra-desc {
     font-size: 0.5rem !important;
   }
 }
 
-/* Tablet: 2 columnas 
-@media (max-width: 900px) {
-  .bottom-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}*/
 
