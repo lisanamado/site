@@ -443,9 +443,6 @@ body {
   margin-left: 20px;
   max-width: 1000px;
 }
-.bottom-grid h2 {
-  font-size: 0.85em !important;
-}
 /*permite que los textos se ajusten a la tabla*/
 .bottom-grid > a,
 .bottom-grid > h3 {
@@ -458,8 +455,31 @@ body {
   .bottom-grid {
     grid-template-columns: 1fr;
     gap: 1px;               /* ajusta el espacio entre filas */
-    bottom: 10%; /* subo la tabla para que no se superponga con el footer */
+    bottom: 120px; /* subo la tabla para que no se superponga con el footer */
     left: 20px;
+    right: 20px;
+  }
+  .bottom-grid h2 {
+    font-size: 1.25em !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-custom .navbar-extra {
+    position: static;
+    transform: none;
+    margin-top: 0.5rem;
+    text-align: left;
+    max-width: calc(100% - 40px);
+    padding-right: 0;
+    padding-left: 20px;
+    margin-left: 0;
+  }
+  .navbar-custom .navbar-extra-title {
+    font-size: 1.8rem !important;
+  }
+  .navbar-custom .navbar-extra-desc {
+    font-size: 1.125rem !important;
   }
 }
 
@@ -495,25 +515,9 @@ body {
   display: block;
   font-size: 1.75rem !important;
   color: #dcdcdc !important;
-  margin-top: 0.2rem;
+  margin-top: 0.4rem;
   line-height: 1.1;
   white-space: normal;
 }
 
-@media (max-width: 767px) {
-  .navbar-custom .navbar-extra {
-    position: static;
-    transform: none;
-    margin-top: 0.5rem;
-    text-align: left;
-    max-width: 100%;
-    padding-right: 0;
-    padding-left: 20px;
-  }
-  .navbar-custom .navbar-extra-title {
-    font-size: 1.8rem !important;
-  }
-  .navbar-custom .navbar-extra-desc {
-    font-size: 1.125rem !important;
-  }
-}
+
